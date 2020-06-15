@@ -174,11 +174,11 @@ switch(true){
        break;  
         
     case (($redLight==false && $yellowLight==false) && ($greenLight==true)):  // third case
-       echo "Power outage!";
+       echo "Keep moving!";
        break; 
     
     case (($redLight==true || $yellowLight==true) &&($greenLight==true)):  // fourth case
-       echo "Power outage!";
+       echo "Traffic lights are messed up!";
        break;  
         
     default:
